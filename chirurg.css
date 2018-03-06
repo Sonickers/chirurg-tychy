@@ -122,10 +122,12 @@ iframe {
 }
 
 .main {
-	margin-top: 160px;
+	padding-top: 160px;
 }
 
 
-
+.fa-arrow-alt-circle-up {
+	font-size: 45px;
+}
 
 
