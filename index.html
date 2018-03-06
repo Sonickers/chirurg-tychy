@@ -8,18 +8,18 @@
 	<link rel="stylesheet" type="text/css" href="chirurg.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 	
 	
 </head>
 <body>
 	<div class="container-fluid p-0">
-		<header>
-			<div id="navbar-example2" class="header">
-				<ul class="nav justify-content-center">
+		<header class="navbar fixed-top p-0">
+				<ul class="nav justify-content-center w-100">
 					<div class="ikona">
 						<i class="fas fa-stethoscope"></i>
 					</div>
-					<li class="glowna">
+					<li class="glowna" id="glowna">
 						<a class="icon nav-link fa-2x" href="#praktyka"><i class="fas fa-plus"></i><b>Strona główna</b></a>
 					</li>
 					<li class="zabiegi">
@@ -32,12 +32,10 @@
 						<a class="icon nav-link" href="#dojazd"><i class="fas fa-plus"></i><b>Dojazd</b></a>
 					</li>
 				</ul>
-
-			</div>
 		</header>	
 	</div>
 	
-	<div class="container">
+	<div class="container main">
 		<div class="card mb-3">
 
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -182,21 +180,27 @@
 				<span id="dojazd" class="navbar-brand  h1"><i class="fas fa-car"></i>   Dojazd</span>
 			</nav>
 			<div class="so-widget-sow-google-map so-widget-sow-google-map-base">
-				<iframe src="https://snazzymaps.com/embed/53224" style="border:none;"/>
+				<iframe src="https://snazzymaps.com/embed/53224" style="border:none;"></iframe>
 			</div>
+		</div>
+	</div>
 
-			<div class="card footer mb-5">
-				<nav class="navbar navbar-light bg-light">
-					<span id="footer" class="navbar-brand mb-2 h1"> 2018 Robert Repeć</span>
-				</nav>
+	<button href="#glowna" type="button" class="btn-up btn rounded float-right btn-lg"><i class="far fa-arrow-alt-circle-up"></i></button>
+
+	<div class="container-fluid p-0">
+		<div class="card mt-5">
+			<div class="text-center">
+				<p> © 2018 Robert Repeć </p>
 			</div>
+		</div>
+	</div>
+	
 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAht3KM-tukZQPDcAB0_4eIkTGBW6vLnU4&callback=initMap"></script>
 
-			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-			<script async defer src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAht3KM-tukZQPDcAB0_4eIkTGBW6vLnU4&callback=initMap"></script>
-
-	</body>
+</body>
 </body>
 </html>

@@ -51,7 +51,7 @@ ul {
 }
 
 .nav {
-	background-color: white;
+	background: rgba(255, 255, 255, 0.8);
 	padding: 20px;
 }
 
@@ -112,3 +112,20 @@ iframe {
 .card-praktyka {
 	height: 350px;
 }
+
+.cyan-text {
+	font-size: 20px;
+}
+
+.btn-up {
+	margin-right: 50px;
+}
+
+.main {
+	margin-top: 160px;
+}
+
+
+
+
+
