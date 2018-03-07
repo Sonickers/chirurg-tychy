@@ -113,3 +113,22 @@ a:hover {
 	font-size: 25px;
 	padding: 15px;
 }
+
+#backtop {
+	position:fixed;
+	right:100px;
+	bottom:100px;
+	cursor:pointer;
+	width:50px;
+	height:50px;
+	color: #15AABF;
+	display:none;
+	-webkit-border-radius:60px;
+	-moz-border-radius:60px;
+	border-radius:60px;
+}
+
+
+#backtop:before, #backtop:after, #backtop:hover {
+	color: #15AABF;
+	opacity: 0.5;

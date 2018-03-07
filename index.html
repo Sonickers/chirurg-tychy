@@ -8,9 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="chirurg.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
-
+	<script src="float-panel.js"></script>
 	
 	
 </head>
@@ -18,24 +16,27 @@
 	<div class="container-fluid p-0">
 		<nav class="navbar navbar-expand  fixed-top p-0">
 			<div class="collapse navbar-collapse" id="navbarsExample02">
-			<ul class="nav collapse navbar-collapse justify-content-center w-100 mr-6">
-				<div class="ikona">
-					<img class="navbar-brand" src="./images/icon-stethoscope.png" width="125" height="125">
-				</div>
-				<li  class="glowna">
-					<a class="nav-item icon nav-link fa-2x" href="#praktyka"><i class="fas fa-plus"></i><b>Strona główna</b></a>
-				</li>
-				<li class="zabiegi">
-					<a class="nav-item icon nav-link" href="#zabiegi"><i class="fas fa-plus"></i><b>Wykonywane zabiegi</b></a>
-				</li>
-				<li class="wizyty">
-					<a class="nav-item icon nav-link" href="#wizyty"><i class="fas fa-plus"></i><b>Konsultacje i wizyty</b></a>
-				</li>
-				<li class="dojazd">
-					<a class="nav-item icon nav-link" href="#map"><i class="fas fa-plus"></i><b>Dojazd</b></a>
-				</li>
-			</ul>
-		</div>
+				<ul class="nav collapse navbar-collapse justify-content-center w-100 mr-6">
+					<div class="ikona">
+						<img class="navbar-brand" src="./images/icon-stethoscope.png" width="125" height="125">
+					</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<li  class="glowna">
+						<a class="nav-item icon <!-- nav-link -->" href="#praktyka"><i class="fas fa-plus"></i><b>Strona główna</b></a>
+					</li>
+					<li class="zabiegi">
+						<a class="nav-item icon <!-- nav-link -->" href="#zabiegi"><i class="fas fa-plus"></i><b>Wykonywane zabiegi</b></a>
+					</li>
+					<li class="wizyty">
+						<a class="nav-item icon <!-- nav-link -->" href="#wizyty"><i class="fas fa-plus"></i><b>Konsultacje i wizyty</b></a>
+					</li>
+					<li class="dojazd">
+						<a class="nav-item icon <!-- nav-link -->" href="#map"><i class="fas fa-plus"></i><b>Dojazd</b></a>
+					</li>
+				</ul>
+			</div>
 		</nav>	
 	</div>
 	
@@ -71,7 +72,7 @@
 
 		</div>
 		
-		<div class="card card-praktyka mb-5">
+		<div class="card slideanim card-praktyka mb-5">
 			<div id="praktyka" class="card-title" mb-0 h1"><i class="fas fa-user-md"></i>  Indywidualna Specjalistyczna Praktyka Lekarska</div>
 			<div class="row ">
 				<div class="col-8 row-dane">
@@ -87,7 +88,7 @@
 			</div>
 		</div>
 		
-		<div class="card zabiegi mb-5" data-offset="0">
+		<div class="card slideanim zabiegi mb-5" data-offset="0">
 			
 			<div id="zabiegi" class="card-title mb-0 h1"><i class="fas fa-heartbeat"></i>   Wykonywane zabiegi operacyjne z zakresu chirurgii ogólnej:</div>
 
@@ -113,7 +114,7 @@
 			</ul>
 		</div>
 
-		<div class="card wizyty mb-5">
+		<div class="card slideanim wizyty mb-5">
 			<div id="wizyty" class="card-title mb-0 h1"><i class="fas fa-hospital"></i>   Konsultacje i wizyty</div>
 			<div class="row">
 				<div class="table-responsive">
@@ -177,7 +178,7 @@
 			</div>
 
 		</div>
-		<div class="card map mt-5">
+		<div class="card slideanim map mt-5">
 
 			<div id="map" class="card-title h1"><i class="fas fa-car"></i>   Dojazd</div>
 			
@@ -187,7 +188,10 @@
 		</div>
 	</div>
 
-	<a href="#" onclick="scroll(0, 0);"><i class="far fa-arrow-alt-circle-up float-right"></i></a>
+	<div class="float-panel float-right">
+		<div id="backtop" data-v-w="300, 1200"><i class="fas fa-arrow-alt-circle-up"></i></div>
+	</div>
+	<!-- <a href="#" onclick="scroll(0, 0);"><i class="far fa-arrow-alt-circle-up float-right"></i></a> -->	
 
 
 
@@ -199,16 +203,12 @@
 		</div>
 	</div>
 
-	<script>
-
-
-
-	</script>
-
+	
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
 
 </body>
 </body>
