@@ -10,6 +10,7 @@ body {
 
 ul {
 	padding-top: 15px;
+	list-style-type: circle;
 }
 
 .row-dane {
@@ -33,7 +34,7 @@ ul {
 
 .nav {
 	background: rgba(255, 255, 255, 0.8);
-	padding: 20px;
+	padding: 15px;
 }
 
 .fa-stethoscope {
@@ -101,6 +102,7 @@ b {
 }
 
 a:hover {
+	
 	color: #3BC9DB;
 	opacity: 0.5;
 }
