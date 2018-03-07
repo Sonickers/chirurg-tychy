@@ -28,18 +28,11 @@ ul {
 	padding: 0 2.5rem;
 	font-size: 20px;
 	padding: 10px;
-
 }
 
 .nav {
 	background: rgba(255, 255, 255, 0.8);
 	padding: 15px;
-}
-
-.fa-stethoscope {
-	font-size: 50px;
-	color: #15AABF;
-
 }
 
 .fname {
