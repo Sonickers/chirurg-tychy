@@ -64,11 +64,13 @@ a {
 
 .nav .fa-plus {
 	color: white;
+	opacity: 0;
 }
 
 .nav a:hover .fa-plus {
 	display: inline-block;
 	color: black;
+	opacity: 1;
 }
 .nav a:hover b {
 	display: inline-block;
@@ -101,8 +103,7 @@ b {
 	margin-right: 35px;
 }
 
-a:hover {
-	
+a:hover {	
 	color: #3BC9DB;
 	opacity: 0.5;
 }
@@ -116,19 +117,14 @@ a:hover {
 
 #backtop {
 	position:fixed;
-	right:100px;
-	bottom:100px;
+	font-size: 35px;
+	right:60px;
+	bottom:60px;
 	cursor:pointer;
-	width:50px;
-	height:50px;
 	color: #15AABF;
+	opacity: 0.5;
 	display:none;
 	-webkit-border-radius:60px;
 	-moz-border-radius:60px;
 	border-radius:60px;
 }
-
-
-#backtop:before, #backtop:after, #backtop:hover {
-	color: #15AABF;
-	opacity: 0.5;
