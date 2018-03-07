@@ -19,9 +19,8 @@ ul {
 }
 
 .row-img {
-	border-radius: 50px 50px 50px 50px;
-	border: 3px solid white;
-	padding-top: 30px;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid #97D0E1;
 }
 
 .nav-link {
