@@ -9,29 +9,31 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+
+
 	
 	
 </head>
 <body>
 	<div class="container-fluid p-0">
 		<nav class="navbar-nav navbar fixed-top p-0">
-				<ul class="nav collapse.navbar-collapse justify-content-center w-100 mr-6">
-					<div class="ikona">
-						<i class="navbar-brand fas fa-stethoscope"></i>
-					</div>
-					<li  class="glowna">
-						<a class="nav-item icon nav-link fa-2x" href="#praktyka"><i class="fas fa-plus"></i><b>Strona główna</b></a>
-					</li>
-					<li class="zabiegi">
-						<a class="nav-item icon nav-link" href="#zabiegi"><i class="fas fa-plus"></i><b>Wykonywane zabiegi</b></a>
-					</li>
-					<li class="wizyty">
-						<a class="nav-item icon nav-link" href="#wizyty"><i class="fas fa-plus"></i><b>Konsultacje i wizyty</b></a>
-					</li>
-					<li class="dojazd">
-						<a class="nav-item icon nav-link" href="#dojazd"><i class="fas fa-plus"></i><b>Dojazd</b></a>
-					</li>
-				</ul>
+			<ul class="nav collapse.navbar-collapse justify-content-center w-100 mr-6">
+				<div class="ikona">
+					<i class="navbar-brand fas fa-stethoscope"></i>
+				</div>
+				<li  class="glowna">
+					<a class="nav-item icon nav-link fa-2x" href="#praktyka"><i class="fas fa-plus"></i><b>Strona główna</b></a>
+				</li>
+				<li class="zabiegi">
+					<a class="nav-item icon nav-link" href="#zabiegi"><i class="fas fa-plus"></i><b>Wykonywane zabiegi</b></a>
+				</li>
+				<li class="wizyty">
+					<a class="nav-item icon nav-link" href="#wizyty"><i class="fas fa-plus"></i><b>Konsultacje i wizyty</b></a>
+				</li>
+				<li class="dojazd">
+					<a class="nav-item icon nav-link" href="#map"><i class="fas fa-plus"></i><b>Dojazd</b></a>
+				</li>
+			</ul>
 		</nav>	
 	</div>
 	
@@ -68,9 +70,7 @@
 		</div>
 		
 		<div class="card card-praktyka mb-5">
-			<nav class="navbar praktyka navbar-light bg-light">
-				<span id="praktyka" class="navbar-brand mb-0 h1"><i class="fas fa-user-md"></i>  Indywidualna Specjalistyczna Praktyka Lekarska</span>
-			</nav>
+			<div id="praktyka" class="card-title" mb-0 h1"><i class="fas fa-user-md"></i>  Indywidualna Specjalistyczna Praktyka Lekarska</div>
 			<div class="row ">
 				<div class="col-8 row-dane">
 
@@ -86,9 +86,9 @@
 		</div>
 		
 		<div class="card zabiegi mb-5" data-offset="0">
-			<nav class="navbar navbar-light bg-light">
-				<span id="zabiegi" class="navbar-brand mb-0 h1"><i class="fas fa-heartbeat"></i>   Wykonywane zabiegi operacyjne z zakresu chirurgii ogólnej:</span>
-			</nav>
+			
+			<div id="zabiegi" class="card-title mb-0 h1"><i class="fas fa-heartbeat"></i>   Wykonywane zabiegi operacyjne z zakresu chirurgii ogólnej:</div>
+
 			<ul><strong>LAPAROSKOPIA:</strong>
 				<li class="mt-3">Usunięcie pęcherzyka żółciowego z powodu kamicy lub polipów</li>
 				<li>Operacje przepuklin pachwinowych, przepuklin rozworu przełykowego</li>
@@ -110,11 +110,9 @@
 				<li>Usuwanie znamion barwnikowych, łojotokowych, brodawek , włókniaków, kaszaków, tłuszczaków</li>
 			</ul>
 		</div>
-		
+
 		<div class="card wizyty mb-5">
-			<nav class="navbar navbar-light bg-light">
-				<span id="wizyty" class="navbar-brand mb-0 h1"><i class="fas fa-hospital"></i>   Konsultacje i wizyty</span>
-			</nav>
+			<div id="wizyty" class="card-title mb-0 h1"><i class="fas fa-hospital"></i>   Konsultacje i wizyty</div>
 			<div class="row">
 				<table class="table table-striped">
 					<thead>
@@ -165,7 +163,7 @@
 				<ul class="w-50">
 					<li>Konsultacje, kwalifikacje do zabiegów operacyjnych</li>
 					<li>Diagnostyka USG (jamy brzusznej, piersi, tarczycy, tkanek miękkich, jąder i powrózków nasiennych, diagnostyka żylaków powrózka nasiennego)</li>
-					
+
 				</ul>
 				<ul class="w-50">
 					<li>Biopsje cienkoigłowe (BAC) guzów tarczycy, piersi</li>
@@ -175,10 +173,10 @@
 			</div>
 
 		</div>
-		<div class="card dojazd mt-5">
-			<nav class="navbar navbar-light bg-light">
-				<span id="dojazd" class="navbar-brand  h1"><i class="fas fa-car"></i>   Dojazd</span>
-			</nav>
+		<div class="card map mt-5">
+
+			<div id="map" class="card-title h1"><i class="fas fa-car"></i>   Dojazd</div>
+			
 			<div class="so-widget-sow-google-map so-widget-sow-google-map-base">
 				<iframe src="https://snazzymaps.com/embed/53224" style="border:none;"></iframe>
 			</div>
@@ -187,6 +185,8 @@
 
 	<a href="#" onclick="window.scroll(0);"><i class="far fa-arrow-alt-circle-up float-right"></i></a>
 
+
+
 	<div class="container-fluid p-0">
 		<div class="card mt-5">
 			<div class="text-center">
@@ -194,7 +194,13 @@
 			</div>
 		</div>
 	</div>
-	
+
+	<script>
+
+
+
+	</script>
+
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

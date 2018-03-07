@@ -56,10 +56,6 @@ ul {
 	padding: 20px;
 }
 
-.navbar-light .navbar-brand {
-	color: #15AABF;
-	font-size: 25px;
-}
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
 	color: #3BC9DB;
 }
@@ -134,4 +130,11 @@ iframe {
 
 b {
 	margin-right: 35px;
+}
+
+.card-title {
+	background-color: #F8F9FA;
+	color: #15AABF;
+	font-size: 25px;
+	min-width: 50px;
 }
