@@ -3,29 +3,9 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-header {
-	border-bottom: 3px solid #15AABF;	
-	padding-top: 5px;
-	margin-bottom: 20px;
-}
-
 .justify-content-center {
 	align-items: center;
 	margin: 0;
-}
-
-header a {	
-	text-decoration: none;
-	color: #495057;
-	text-align: center;
-	margin-top: 10px;
-	transition: opacity 0.2s;
-}
-
-header a:hover {
-	text-decoration: none;
-	color: #3BC9DB;
-	opacity: 0.5;
 }
 
 ul {
@@ -54,10 +34,6 @@ ul {
 .nav {
 	background: rgba(255, 255, 255, 0.8);
 	padding: 20px;
-}
-
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-	color: #3BC9DB;
 }
 
 .fa-stethoscope {
@@ -110,14 +86,6 @@ iframe {
 	height: 350px;
 }
 
-.cyan-text {
-	font-size: 20px;
-}
-
-.btn-up {
-	margin-right: 50px;
-}
-
 .main {
 	padding-top: 160px;
 }
@@ -130,6 +98,12 @@ iframe {
 
 b {
 	margin-right: 35px;
+}
+
+b:hover {
+	margin-right: 35px;
+	color: #3BC9DB;
+	opacity: 0.5;
 }
 
 .card-title {
